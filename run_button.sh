@@ -1,2 +1,2 @@
-javac src/main/java/*.java
-java -cp src/main/java/ ConstructionTester
+javac -cp src/main/java/*.java
+java  src/main/java/ ConstructionTester
