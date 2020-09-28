@@ -4,10 +4,10 @@ public class HowFarAway
 {
     public static void main(String[] args)
     {
-        double lat1;
-        double long1;
-        double lat2;
-        double long2;
+        double sLat;
+        double sLon;
+        double eLat;
+        double eLon;
         
         System.out.println("Enter the latitude of the starting location: ");
         sLat = scanner.nextDouble();
@@ -23,6 +23,6 @@ public class HowFarAway
 
         GeoLocation myGeoLocation = new GeoLocation(8.0,11.0,taxRate);
 
-        System.out.println("The distance is " + + " miles");
+        System.out.println("The distance is " + myGeoLocation.GeoLocation(total) + " miles");
     }
 }
